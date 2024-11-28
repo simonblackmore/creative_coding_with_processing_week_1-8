@@ -1,8 +1,7 @@
 /*
-
-emojies made by Lottie!
-
-
+Emojies coded by Lottie
+Mess with the framerate, turn it off
+See how you can modify the emojies
  */
 
 void setup() {
@@ -11,6 +10,7 @@ void setup() {
   frameRate(1);
   //noLoop();
 }
+
 
 void draw() {
   background(255);
@@ -24,3 +24,8 @@ void draw() {
   translate(-1250,40);
   }
 }
+
+
+/*
+I have put the emoji function in a seperate tab but it could be here instead
+*/
