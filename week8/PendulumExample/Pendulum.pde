@@ -67,6 +67,9 @@ class Pendulum {
     if (dragging) fill(0);
     // Draw the ball
     ellipse(position.x, position.y, ballr, ballr);
+    
+    if (position.x > 318 && position.x < 322){println("your osc code here");}
+    
   }
 
 
